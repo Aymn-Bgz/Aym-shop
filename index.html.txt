@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>AYMAN SHOP</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #00f7ff, #8a2be2);
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* SECTION PRODUITS */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #00f7ff;
+    border-radius: 15px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: #00f7ff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background: #00f7ff;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #8a2be2;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    Ayman Shop 🚀
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250" alt="Produit">
+        <h3>T-shirt Futuriste</h3>
+        <p class="price">29€</p>
+        <button>Ajouter au panier</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250" alt="Produit">
+        <h3>Hoodie Néon</h3>
+        <p class="price">59€</p>
+        <button>Ajouter au panier</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250" alt="Produit">
+        <h3>Veste Cyber</h3>
+        <p class="price">89€</p>
+        <button>Ajouter au panier</button>
+    </div>
+
+</div>
+
+<footer>
+    Créateur : Ayman Bzg<br>
+    Owner : Ayman Bzg
+</footer>
+
+</body>
+</html>
